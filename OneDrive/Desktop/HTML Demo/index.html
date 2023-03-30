@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Demo</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Demo</h1>
+        <nav>
+            <a href="#headings">Headings</a> | <a href="#forms">Forms</a>
+        </nav>
+    </header>
+    <div>Just saying hi!</div>
+   <main>
+    <p>this is a paragraph that contains some text Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita rerum ab quasi commodi alias maiores architecto, libero laboriosam! Corrupti voluptatem iusto ab repellendus hic omnis molestiae iste quia necessitatibus quidem?</p>
+   
+    <section id="list">
+     <p>the most common list you will use in a unordered list. There is also an ordered list and an obsure 3rd list type i updat this later to reflect</p>
+
+     <nav>
+        <ul>
+            <li><a href="#headings">Headings</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#buttons">Buttons</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+
+
+        </ul>
+     </nav>
+     
+     <p>this is an example of an ordered list</p>
+     <ol>
+        <li>Apple</li>
+        <li>Bananas</li>
+        <li>Kiwi</li>
+        <li>Watermelon</li>
+     </ol>
+
+    </section>
+   
+   
+   
+   
+   
+   
+    <section id="headings">
+    lets look at the different heading element, h1-h6 
+    <h1>this is h1</h1>
+    <h2>this is h2</h2>
+    <h3>this is h3</h3>
+    <h4>this is h4</h4>
+    <h5>this is h5</h5>
+    <h6>this is h6</h6>
+   </section>
+
+   <section id="forms">
+    <form>
+        <h2>Example Form</h2>
+        <fieldset>
+            <legend>Pizza</legend>
+            <p>This is the first section of the form. this represents instructions</p>
+            
+            <input type="checkbox" name="topping" id="ham">
+            <label for="ham">Sausage</label> <br/>
+
+            <input type="checkbox" name="topping" id="pepperoni">
+            <label for="pepperoni">Pepperoni</label> <br/>
+
+            <input type="checkbox" name="topping" id="mushrooms">
+            <label for="mushrooms">Mushrooms</label> <br/>
+
+            <input type="checkbox" name="topping" id="olives">
+            <label for="Olives">Olives</label>
+            
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Pickup or Delivery</legend>
+
+            <input type="radio" name="pickup" id="delivery">
+            <label for="deliver">Delivery</label> <br/>
+
+            <input type="radio" name="pickup" id="pickup">
+            <label for="pickup">Pickup</label>
+
+
+        </fieldset>
+
+        
+
+          <fieldset>
+            <legend>Current City</legend>
+            <select name="dropdown" id="city" title="city">
+              <option value="1">Atlanta - Midtown</option>
+              <option value="2">Atlanta - Buckhead</option>
+              <option value="3">Atlanta - Peachtree City</option>
+              <option value="4">Marietta</option>
+              <option value="5">Roswell</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Various input types</legend>
+  
+            <label for="input-text">Text input</label>
+            <br>
+            <input type="text" id="input-text" value="default input text">
+  
+            <br>
+            <br>
+            <label for="input-email">Email Input</label>
+            <br>
+            <input type="email" name="input-email" id="input-email" required>
+  
+            <br>
+            <br>
+            <label for="date">Date</label>
+            <br>
+            <input type="date" name="date" id="date">
+  
+            <br>
+            <br>
+            <label for="number">Numbers</label>
+            <br>
+            <input type="number" name="number" id="number" min="0" max="10">
+  
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" minlength="8">
+  
+            <br>
+            <br>
+            <label for="range">Range</label>
+            <br>
+            <input type="range" name="range" id="range" min="0" max="5">
+          </fieldset>
+
+          <!--Buttons to submit form-->
+         <button type="reset">Reset</button>
+         <button type="submit">Submit</button>
+
+
+
+    </form>
+
+
+
+   </section>
+
+   <section id="buttons">
+    <h2>Buttons</h2>
+    <div>
+        <h3>Different button types</h3>
+        <button>Standard</button>
+        <button disabled="disabled">Disabled</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+
+    </div>
+
+    <div>
+        <h3>Input buttons</h3>
+        <input type="button" value="input btn">
+    </div>
+
+
+
+   </section>
+
+
+</main>
+    <footer>
+    This is where you have things like contact info, more navigation, legal information, etc
+    <nav>
+        <a href="#headings">Headings</a> | <a href="#forms">Forms</a> | <a href="#buttons">Buttons</a>
+    </nav>
+   </footer> 
+</body>
+</html>
